@@ -296,6 +296,7 @@ align-items: center;
     justify-content: space-between;
 }
 .last-section{
+    padding:0px 0px 0px 30px; 
   text-align: center;
     height: 500px;
     color: #666;
@@ -306,11 +307,14 @@ align-items: center;
 
 }
 .heading p{
-    padding: 70px 0px 0px 30px;
+    padding: 35px 0px 0px 30px;
     font-size: 1.3rem;
     font-weight: 700;
 }
 .first-sec{
+    padding: 30px 0px 0px 30px; 
+}
+.four-sec{
     padding: 30px 0px 0px 30px; 
 }
 .section{
@@ -327,7 +331,7 @@ align-items: center;
 }
 .section a:not(:last-child)::after {
     content: "|";
-    margin-left: 5px; /* Adjust the spacing between anchor tags and vertical bar */
+    margin-left: 5px; 
 font-weight: bold;
 }
 .contact-bar{
@@ -359,7 +363,6 @@ font-weight: bold;
 }
 .about-last {
     position: relative;
-    /* Add any other styles you need for your div */
 }
 
 .about-last::after {
@@ -367,11 +370,10 @@ font-weight: bold;
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 2px; /* Adjust the width of the line as needed */
+    width: 2px; 
     background-color: #666;
     right: -10px;
 }
-
 .contact-bar::after{
     content: '';
     position: absolute;
@@ -381,5 +383,4 @@ font-weight: bold;
     margin: 0;
     height: 2px;
     background-color: #666;
-    
 }
